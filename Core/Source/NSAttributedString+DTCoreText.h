@@ -62,7 +62,7 @@
  @param location The location in the text.
  @returns The range of the given text block containing the location.
  */
-- (NSRange)rangeOfTextBlock:(DTTextBlock *)textBlock atIndex:(NSUInteger)location;
+//- (NSRange)rangeOfTextBlock:(DTTextBlock *)textBlock atIndex:(NSUInteger)location;
 
 /**
  Returns the range of the given href anchor.

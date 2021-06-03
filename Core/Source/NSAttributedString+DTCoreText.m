@@ -230,12 +230,15 @@
 	return listRange;
 }
 
+/*
+ https://github.com/Cocoanetics/DTCoreText/issues/1132
 - (NSRange)rangeOfTextBlock:(DTTextBlock *)textBlock atIndex:(NSUInteger)location
 {
 	NSParameterAssert(textBlock);
 	
 	return [self _rangeOfObject:textBlock inArrayBehindAttribute:DTTextBlocksAttribute atIndex:location];
 }
+ */
 
 - (NSRange)rangeOfAnchorNamed:(NSString *)anchorName
 {
